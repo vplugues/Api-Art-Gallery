@@ -1,0 +1,30 @@
+{
+  "name": "clear-api-for-vue",
+  "version": "0.1.0",
+  "description": "Clear API",
+  "main": "lib/server.js",
+  "scripts": {
+    "unit": "lab test/unit -a code -v",
+    "integration": "lab test/integration -a code -v",
+    "test": "lab -a code -v"
+  },
+  "author": "Vanessa Plugues <vanessap@cityfurniture.com>",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.25.1",
+    "dotenv": "^4.0.0",
+    "hapi": "^16.1.0",
+    "joi": "^10.2.2",
+    "mongodb": "^2.2.24"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "eslint": "^3.16.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-react": "^6.10.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eyes": "^0.1.8",
+    "lab": "^12.1.0"
+  }
+}
