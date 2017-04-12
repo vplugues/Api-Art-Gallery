@@ -15,6 +15,7 @@
     "dotenv": "^4.0.0",
     "hapi": "^16.1.0",
     "joi": "^10.2.2",
+    "moment": "^2.18.1",
     "mongodb": "^2.2.24"
   },
   "devDependencies": {
