@@ -6,6 +6,11 @@
 - MongoDB 
    * db  v3.4.3
    * node v2.2.24
+ 
+## Getting Started
+- run `node lib/server.js`
+- run mongo server `mongod`
+- open where server is running at (default is port 9999) `:9999/documentation` to view the API interface/documentation.
 
 ## Structure
 
